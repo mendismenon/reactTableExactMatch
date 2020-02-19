@@ -674,7 +674,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	        expandable: column.props.expandable,
 	        attrs: column.props.tdAttr,
 	        editAttrs: column.props.editTdAttr,
-	        style: column.props.tdStyle
+	        style: column.props.tdStyle,
+			ExactMatch: column.props.ExactMatch
 	      };
 
 	      if (column.type.name !== _TableHeaderColumn2.default.name && _react2.default.isValidElement(column.props.children)) {
